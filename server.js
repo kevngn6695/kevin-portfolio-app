@@ -13,7 +13,7 @@ const app = express();
 /* Usage the library */
 app.use(express.json());
 app.use(cors());
-app.use(bodyParser.urlencoded({ extended:true}));
+app.use(bodyParser.urlencoded({ extended:true }));
 app.use(bodyParser.json());
 
 /* Set a path between client and server */
