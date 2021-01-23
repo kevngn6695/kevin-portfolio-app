@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/Assets/SASS/body.scss"],"names":[],"mappings":"AAAA,gBACI,yDAAA","file":"main.73749232.chunk.css","sourcesContent":[".body-container {\r\n    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);\r\n}"]}
