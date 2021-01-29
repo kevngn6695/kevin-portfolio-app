@@ -1,0 +1,48 @@
+:root {
+    --full-width: 100%;
+    --full-height: 100%;
+    --home-color: linear-gradient(to top, #8d6dda 0%, #fbc2eb 100%);
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle1,
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.6));
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+}
+
+.home-container {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: var(--home-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: white;
+    height: 1000px;
+    margin: 50px;
+    width: 80%;
+    background: linear-gradient(to right bottom,
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.2));
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}

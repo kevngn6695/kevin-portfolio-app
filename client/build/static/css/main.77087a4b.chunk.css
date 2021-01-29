@@ -1,2 +1,0 @@
-:root{--full-width:100%;--full-height:100%;--body-color:radial-gradient(circle farthest-corner at 10% 20%,#80f8ae 0%,#dff494 50%)}body{background:radial-gradient(circle farthest-corner at 10% 20%,#80f8ae 0,#dff494 50%);background:var(--body-color);width:100%;width:var(--full-width);height:100%;height:var(--full-height)}
-/*# sourceMappingURL=main.77087a4b.chunk.css.map */

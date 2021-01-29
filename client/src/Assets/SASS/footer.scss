@@ -1,0 +1,30 @@
+@import './font-face.scss';
+
+:root {
+    --abel-cursive: Abel, cursive;
+    --anton-cursive: Anton, cursive;
+    --apercu-cursive: Apercu, cursive;
+    --gt-walsheim-cursive: GT Walsheim, cursive;
+    --jeko-cursive: Jeko, cursive;
+    --josefin-sans-cursive: Josefin, cursive;
+    --lexend-deca-cursive: Lexend Deca, cursive;
+    --livvic-cursive: Livvic, cursive;
+    --montserrat-cursive: Montserrat, cursive;
+
+
+}
+
+.footer-container {
+    position: fixed;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 15px;
+}
+
+.copyright {
+    font-family: Abel, cursive;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
