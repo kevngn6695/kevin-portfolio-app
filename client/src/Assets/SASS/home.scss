@@ -1,8 +1,7 @@
 :root {
     --full-width: 100%;
     --full-height: 100%;
-    --home-color: linear-gradient(to top, #8d6dda 0%, #fbc2eb 100%);
-    ;
+    --home-color: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
 }
 
 * {
@@ -16,8 +15,8 @@
     width: 100px;
     height: 100px;
     background: linear-gradient(to right bottom,
-            rgba(255, 255, 255, 0.7),
-            rgba(255, 255, 255, 0.6));
+            rgba(255, 255, 255, 0.4),
+            rgba(255, 255, 255, 0.2));
     border-radius: 50%;
     position: absolute;
     z-index: 3;
