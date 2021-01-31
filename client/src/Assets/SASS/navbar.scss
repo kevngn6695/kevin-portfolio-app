@@ -9,32 +9,40 @@
     --josefin-sans-cursive: Josefin, cursive;
     --lexend-deca-cursive: Lexend Deca, cursive;
     --livvic-cursive: Livvic, cursive;
-    --montserrat-cursive: Montserrat, cursive;
-
-
+    --montserrat-cursive: Montserrat,
+    cursive;
 }
 
-ul {
+.nav {
+    border: 1px solid white;
     width: 100%;
-    border: 1px solid black;
+    height: 0;
+    min-height: 10vh;
     position: absolute;
     top: 0;
-    text-align: center;
-
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
 
-li {
-    list-style: none;
-    float: left;
+.list-container-item {
+    text-align: center;
     padding: 10px;
+    float: left;
+    list-style-type: none;
 
-    a {
-        font-family: var(--apercu-cursive);
+    .nav-link {
         text-decoration: none;
-        font-size: 16px;
-        color: black;
-        text-align: center;
-
+        color: #0f0f0f;
+        font-size: 14px;
+        font-family: var(--abel-cursive);
+    
     }
+}
 
+.logo-image {
+    width: 80px;
+    height: 80px;
+    float: left;
+    
 }
