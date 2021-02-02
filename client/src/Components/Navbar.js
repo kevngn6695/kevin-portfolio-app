@@ -14,9 +14,9 @@ class Navbar extends Component {
       return <li className="list-container-item"><div className="list-container-wrapper"><a className="nav-link" href="/">{this.capitalize(`${navListMap}`)}</a></div></li>
     });
 
-    const mediaList = ['f', 'i', 'l', 'y'];
+    const mediaList = ['facebook', 'instagram', 'linkedin', 'youtube'];
     const mediaListMap = mediaList.map(mediaListMap => {
-      return <a href="/">{this.capitalize(`${mediaListMap}`)}</a>
+      return <div className={`${mediaListMap}`}></div>
     })
     return (
         <nav className="nav">
@@ -26,7 +26,8 @@ class Navbar extends Component {
               {navListMap}
             </ul>
             <div className="media-list">
-              {mediaListMap}
+              <a href="/">{mediaListMap}</a>
+              
             </div>
         </nav>
     );
