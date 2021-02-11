@@ -5,9 +5,6 @@ import '../Assets/SASS/home.scss';
 import Footer from './Footer';
 import Navbar from './Navbar';
 
-import $ from 'jquery';
-import e from 'cors';
-
 export default class Home extends Component {
 
   constructor(props) {
