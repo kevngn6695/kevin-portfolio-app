@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 
 import '../Assets/SASS/home.scss';
+
 import Footer from './Footer';
 import Navbar from './Navbar';
+
 import $ from 'jquery';
 import e from 'cors';
 
-
-class Home extends Component {
+export default class Home extends Component {
 
   constructor(props) {
     super(props);
@@ -31,16 +32,9 @@ class Home extends Component {
     }else{
       return {};
     }
-   
-
-
-
   }
 
   render() {
-
-      
-
     const bubbles = []
     for (var i = 1; i <= 10; i++) {
       bubbles.push(<div className={`bubbles bubble${i}`} style={this.getRandomPosition(i)}></div>)
@@ -52,10 +46,7 @@ class Home extends Component {
           <Footer/>
         </div>
         {bubbles}
-        
       </div>
     );
   }
 }
-
-export default Home;
