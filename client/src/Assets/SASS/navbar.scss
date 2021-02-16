@@ -22,8 +22,7 @@ $social-media-icons: ("facebook": $size, "instagram": $size, "linkedin": $size, 
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    top: 15px;
-    
+    padding-top: 15px;
 
     .list-container{
         padding:5px;

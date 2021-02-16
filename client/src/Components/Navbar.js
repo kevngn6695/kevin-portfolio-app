@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import '../Assets/SASS/navbar.scss';
 
 import BearLogo from '../Assets/Media/Images/bear-logo-original-white.png';
@@ -27,7 +28,6 @@ class Navbar extends Component {
             </ul>
             <div className="media-list">
               <a href="/">{mediaListMap}</a>
-              
             </div>
         </nav>
     );

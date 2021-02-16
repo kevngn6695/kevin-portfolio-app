@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../Assets/SASS/footer.scss';
 
-class Footer extends Component {
+export default class Footer extends Component {
   render() {
     var date = new Date();
     var year = date.getFullYear();
@@ -14,5 +14,3 @@ class Footer extends Component {
     );
   }
 }
-
-export default Footer;
