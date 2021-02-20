@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ba6305c.chunk.css",
+    "main.css": "/static/css/main.9913a21a.chunk.css",
     "main.js": "/static/js/main.048ff84e.chunk.js",
     "main.js.map": "/static/js/main.048ff84e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e73b1812.js",
@@ -10,7 +10,7 @@
     "static/js/3.560a6931.chunk.js": "/static/js/3.560a6931.chunk.js",
     "static/js/3.560a6931.chunk.js.map": "/static/js/3.560a6931.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4ba6305c.chunk.css.map": "/static/css/main.4ba6305c.chunk.css.map",
+    "static/css/main.9913a21a.chunk.css.map": "/static/css/main.9913a21a.chunk.css.map",
     "static/js/2.615d910c.chunk.js.LICENSE.txt": "/static/js/2.615d910c.chunk.js.LICENSE.txt",
     "static/media/navbar.scss": "/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/bear-logo-original-white.fd710398.png": "/static/media/bear-logo-original-white.fd710398.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e73b1812.js",
     "static/js/2.615d910c.chunk.js",
-    "static/css/main.4ba6305c.chunk.css",
+    "static/css/main.9913a21a.chunk.css",
     "static/js/main.048ff84e.chunk.js"
   ]
 }

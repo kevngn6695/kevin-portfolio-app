@@ -11,7 +11,7 @@ class Navbar extends Component {
   }
 
   render() {
-    const navList = ['home', 'project', 'about', 'contact'];
+    const navList = ['home', 'about', 'contact'];
     const navListMap = navList.map(navListMap => {
       return <li className="list-container-item"><div className="list-container-wrapper"><a className="nav-link" href="/">{this.capitalize(`${navListMap}`)}</a></div></li>
     });

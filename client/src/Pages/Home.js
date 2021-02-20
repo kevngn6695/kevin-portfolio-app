@@ -25,7 +25,7 @@ export default class Home extends Component {
     const s = Math.random() * 10 + 30 * i;
     const x = Math.random() * 1400 + Math.floor(Math.random() * 30 * i);
     const y = Math.random() * 700 + Math.floor(Math.random() * 30 * i);
-    if ((x > 0 && x < screen_width - (s/2) - 100) && (y > 0 && y < screen_height*2 - 100)){
+    if ((x > 0 && x < screen_width - (s/2) - 300) && (y > 0 && y < screen_height - 200)){
       const styles = {
         width: `${s/2}px`,
         height: `${s/2}px`,
@@ -38,11 +38,12 @@ export default class Home extends Component {
     }
   }
   render() {
-
     const bubbles = [];
     for (var i = 1; i <= 10; i++) {
       bubbles.push(<div className={`bubbles bubble${i}`} style={this.getRandomPosition(i)}></div>)
     }
+
+    
     return (
       <div className="home-container">
         <div className="container">
@@ -50,7 +51,6 @@ export default class Home extends Component {
           <ul className="pad-container">
             <motion.li whileHover={{scale: 1.05}} transition={transition} className='pad-wrapper'></motion.li>
             <motion.li whileHover={{scale: 1.05}} transition={transition} className='pad-wrapper1'></motion.li>
-            <motion.li whileHover={{scale: 1.05}} transition={transition} className='pad-wrapper2'></motion.li>
           </ul>
           <Footer/>
         </div>
